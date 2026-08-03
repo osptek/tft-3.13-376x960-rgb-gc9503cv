@@ -33,7 +33,7 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，�
 
 规格标识（仓库名）：`3.13-tft-376x960-rgb-gc9503cv`
 
-模组规格书文件名含 **YDP313B002**；电气与外形细节以 [`docs/`](./docs/) 内 PDF 为准。
+当前模组版本：**YDP313B002-V1**。电气与外形细节以 [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf) 为准。
 
 ## 规格参数
 
@@ -44,7 +44,6 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，�
 | 分辨率 | 376×960 |
 | 接口 | RGB |
 | 驱动 IC | GC9503CV |
-| 初始化参考 | 见 `docs/` 内初始化说明 |
 
 > 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
@@ -60,6 +59,7 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，�
 3.13-tft-376x960-rgb-gc9503cv/
 ├── README.md
 ├── README_EN.md
+├── MODULE_VERSION.md
 ├── LICENSE
 ├── images/          # README 用图
 ├── docs/            # 规格书、驱动手册、初始化等
@@ -72,7 +72,7 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，�
 
 | 资料 | 链接 |
 | ---- | ---- |
-| 产品规格书（YDP313B002） | [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf) |
+| 产品规格书（YDP313B002-V1） | [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf) |
 | 驱动 IC 数据手册（GC9503CV） | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
 | 初始化序列（文本） | [`docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt`](./docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt) |
 

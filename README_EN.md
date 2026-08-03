@@ -33,7 +33,7 @@ OSPTEK **3.13″ 376×960 TFT** is an **RGB** color display module driven by **G
 
 Spec ID (repository name): `3.13-tft-376x960-rgb-gc9503cv`
 
-The module datasheet filename references **YDP313B002**. Electrical and mechanical details follow the PDFs under [`docs/`](./docs/).
+Current module version: **YDP313B002-V1**. Electrical and mechanical details follow [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf).
 
 ## Specifications
 
@@ -44,7 +44,6 @@ The module datasheet filename references **YDP313B002**. Electrical and mechanic
 | Resolution | 376×960 |
 | Interface | RGB |
 | Driver IC | GC9503CV |
-| Init reference | See init notes under `docs/` |
 
 > Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
@@ -60,6 +59,7 @@ The module datasheet filename references **YDP313B002**. Electrical and mechanic
 3.13-tft-376x960-rgb-gc9503cv/
 ├── README.md
 ├── README_EN.md
+├── MODULE_VERSION.md
 ├── LICENSE
 ├── images/          # README assets
 ├── docs/            # datasheets, init files
@@ -72,7 +72,7 @@ The module datasheet filename references **YDP313B002**. Electrical and mechanic
 
 | Resource | Link |
 | ---- | ---- |
-| Product datasheet (YDP313B002) | [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf) |
+| Product datasheet (YDP313B002-V1) | [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf) |
 | Driver IC datasheet (GC9503CV) | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
 | Init sequence (text) | [`docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt`](./docs/GC9503CV_BOE3.13IPS(QV032DEQ-N80)_20220106_AN_V1.txt) |
 
