@@ -101,7 +101,7 @@ OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，�
 - 技术支持 / 产品咨询：<luyu@osptek.com>
 - QQ 技术交流群：**985881096**
 - 公司官网：<https://osptek.com/>
-- 使用中如有问题，也可在本仓库 [Issues](https://github.com/osptek/3.13-tft-376x960-rgb-gc9503cv/issues) 中提问
+- 有任何问题，都可以在本仓库 Issues 中提问
 
 ---
 
