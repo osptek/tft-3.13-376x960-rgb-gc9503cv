@@ -101,6 +101,7 @@ Current module version: **YDP313B002-V1**. Electrical and mechanical details fol
 - Technical support / product inquiry: <luyu@osptek.com>
 - QQ group (China): **985881096**
 - Website: <https://osptek.com/>
+- For questions or problems, you can also open a GitHub [Issue](https://github.com/osptek/3.13-tft-376x960-rgb-gc9503cv/issues)
 
 ---
 
