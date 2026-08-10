@@ -46,8 +46,6 @@ Repo id: `3.13-tft-376x960-rgb-gc9503cv`
 
 <p align="center"><img alt="YDP313B002-V1" src="./images/YDP313B002-V1.png" width="320" /></p>
 
-**Notes:** Module.
-
 ---
 
 ## How to Switch Branches

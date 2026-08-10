@@ -46,8 +46,6 @@
 
 <p align="center"><img alt="YDP313B002-V1" src="./images/YDP313B002-V1.png" width="320" /></p>
 
-**说明：** 模组。
-
 ---
 
 ## 如何切换分支
