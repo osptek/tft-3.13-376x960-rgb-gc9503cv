@@ -31,7 +31,7 @@
 
 OSPTEK **3.13″ 376×960 TFT** is an **RGB** color display module driven by **GC9503CV**. The tall aspect ratio suits bar-style HMI, side status strips, and vertical info panels.
 
-Spec ID (repository name): `3.13-tft-376x960-rgb-gc9503cv`
+Spec ID (repository name): `tft-3.13-376x960-rgb-gc9503cv`
 
 Current module version: **YDP313B002-V1**. Electrical and mechanical details follow [`docs/YDP_313_B002_V1_1a0ff66f58.pdf`](./docs/YDP_313_B002_V1_1a0ff66f58.pdf).
 
@@ -56,7 +56,7 @@ Current module version: **YDP313B002-V1**. Electrical and mechanical details fol
 ## Repository layout
 
 ```text
-3.13-tft-376x960-rgb-gc9503cv/                                # repo root (nav: ../../README_EN.md)
+tft-3.13-376x960-rgb-gc9503cv/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP313B002-V1/                                # full materials for this part number
         ├── README.md

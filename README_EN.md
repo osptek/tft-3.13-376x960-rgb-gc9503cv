@@ -29,7 +29,7 @@ This repository holds materials for the **3.13″ 376×960 TFT (RGB · GC9503CV)
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `3.13-tft-376x960-rgb-gc9503cv`
+Repo id: `tft-3.13-376x960-rgb-gc9503cv`
 
 ---
 
