@@ -1,0 +1,14 @@
+id: tft-3.13-376x960-rgb-gc9503cv
+category: displays
+
+size: "3.13"
+panel: tft
+resolution: 376x960
+interface: [rgb]
+shape: bar
+
+versions:
+  - id: YDP313B002-V1
+    driver: GC9503CV
+    touch: none
+    note: none
