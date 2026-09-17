@@ -6,6 +6,7 @@ panel: tft
 resolution: 376x960
 interface: [rgb]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP313B002-V1
