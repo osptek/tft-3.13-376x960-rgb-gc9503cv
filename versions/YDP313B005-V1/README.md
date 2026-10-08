@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 3.13″ TFT 376×960（GC9503CV · RGB）</h1>
 
-<p align="center"><b>TFT 模组 · RGB · GC9503CV · 多版本索引</b></p>
+<p align="center"><b>条形 TFT 模组 · RGB · GC9503CV</b></p>
 
-<p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
+<p align="center"><a href="./README_EN.md">English</a> | 简体中文 · <a href="../../README.md">规格族索引</a></p>
 
 <p align="center">
   <img alt="Size: 3.13 inch" src="https://img.shields.io/badge/Size-3.13%22-3498DB?style=flat-square" />
@@ -15,51 +15,56 @@
 
 ## 目录
 
-- [说明](#说明)
-- [版本一览](#版本一览)
-- [YDP313B005-V1](#ydp313b005-v1)
-- [YDP313B002-V1](#ydp313b002-v1)
+- [产品简介](#产品简介)
+- [规格参数](#规格参数)
+- [仓库结构](#仓库结构)
+- [相关资料](#相关资料)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 说明
+## 产品简介
 
-本仓库收录 **3.13 寸 376×960 TFT（RGB · GC9503CV）** 显示模组资料。
-
-**根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
+OSPTEK **3.13 寸 376×960 TFT** 是一款 **RGB** 接口彩色显示模组，驱动为 **GC9503CV**。细长分辨率适合条形 HMI、侧边状态条与竖向信息面板等场景。
 
 规格标识（仓库名）：`tft-3.13-376x960-rgb-gc9503cv`
 
----
+当前模组版本：**YDP313B005-V1**。电气与外形细节以 [`docs/YDP313B005-V1.pdf`](./docs/YDP313B005-V1.pdf) 为准。
 
-## 版本一览
+## 规格参数
 
-| 版本 | 宣传图 | 简介 | 完整资料 |
-| ---- | ------ | ---- | -------- |
-| YDP313B005-V1 | | [简介](#ydp313b005-v1) | [完整资料](./versions/YDP313B005-V1/) |
-| YDP313B002-V1 | <img alt="YDP313B002-V1" src="./versions/YDP313B002-V1/images/product.png" width="120" /> | [简介](#ydp313b002-v1) | [完整资料](./versions/YDP313B002-V1/) |
+| 项目 | 规格 |
+| ---- | ---- |
+| 尺寸 | 3.13 英寸 |
+| 类型 | TFT / IPS（16.7M，Normally Black） |
+| 分辨率 | 376×960 |
+| 接口 | RGB |
+| 驱动 IC | GC9503CV |
 
----
+> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
-## YDP313B005-V1
+## 仓库结构
 
-**说明：** FPC 为 30 Pin，无触摸，典型亮度 600 cd/m²。
+```text
+tft-3.13-376x960-rgb-gc9503cv/                                # 仓库根（导航见 ../../README.md）
+└── versions/
+    └── YDP313B005-V1/                                        # 本料号完整资料
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
 
-完整产品页、规格书与示例：[versions/YDP313B005-V1/](./versions/YDP313B005-V1/)
+## 相关资料
 
----
+### 本产品资料
 
-## YDP313B002-V1
-
-<p align="center"><img alt="YDP313B002-V1" src="./versions/YDP313B002-V1/images/product.png" width="320" /></p>
-
-**说明：** FPC 为 30 Pin，无触摸，典型亮度 300 cd/m²。
-
-完整产品页、规格书与示例：[versions/YDP313B002-V1/](./versions/YDP313B002-V1/)
-
----
+| 资料 | 链接 |
+| ---- | ---- |
+| 产品规格书（YDP313B005-V1） | [`docs/YDP313B005-V1.pdf`](./docs/YDP313B005-V1.pdf) |
+| 驱动 IC 数据手册（GC9503CV） | [`docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf`](./docs/GC_9503_CV_Data_Sheet_V1_0_1_bf6521995e.pdf) |
 
 ## 购买链接
 
@@ -76,8 +81,6 @@
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
-
----
 
 ## 技术支持
 

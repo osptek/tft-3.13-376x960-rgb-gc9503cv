@@ -9,7 +9,11 @@ shape: rect
 corner: rounded
 
 versions:
+  - id: YDP313B005-V1
+    driver: GC9503CV
+    touch: none
+    note: 30-pin FPC, 600 nits
   - id: YDP313B002-V1
     driver: GC9503CV
     touch: none
-    note: none
+    note: 30-pin FPC, 300 nits

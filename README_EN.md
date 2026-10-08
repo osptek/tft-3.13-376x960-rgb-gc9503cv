@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 3.13″ TFT 376×960 (GC9503CV · RGB)</h1>
 
-<p align="center"><b>TFT module · RGB · GC9503CV · Multi-Version Index</b></p>
+<p align="center"><b>TFT module · RGB · GC9503CV · Multi-version index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -17,6 +17,7 @@
 
 - [About](#about)
 - [Versions](#versions)
+- [YDP313B005-V1](#ydp313b005-v1)
 - [YDP313B002-V1](#ydp313b002-v1)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
@@ -37,13 +38,24 @@ Repo id: `tft-3.13-376x960-rgb-gc9503cv`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
+| YDP313B005-V1 | | [Summary](#ydp313b005-v1) | [Full docs](./versions/YDP313B005-V1/) |
 | YDP313B002-V1 | <img alt="YDP313B002-V1" src="./versions/YDP313B002-V1/images/product.png" width="120" /> | [Summary](#ydp313b002-v1) | [Full docs](./versions/YDP313B002-V1/) |
+
+---
+
+## YDP313B005-V1
+
+**Notes:** 30-pin FPC, no touch, typical luminance 600 cd/m².
+
+Full product page, datasheets, and examples: [versions/YDP313B005-V1/](./versions/YDP313B005-V1/)
 
 ---
 
 ## YDP313B002-V1
 
 <p align="center"><img alt="YDP313B002-V1" src="./versions/YDP313B002-V1/images/product.png" width="320" /></p>
+
+**Notes:** 30-pin FPC, no touch, typical luminance 300 cd/m².
 
 Full product page, datasheets, and examples: [versions/YDP313B002-V1/](./versions/YDP313B002-V1/)
 
